@@ -86,7 +86,9 @@ public class Silly implements Comparable<Silly>{
      * @param first_name the first part of the name for this Silly instance
      * @param second_name the second part of the name for this Silly instance
      */
-    public Silly(String first_name, String second_name) { this.name = first_name + second_name; }
+    public Silly(String first_name, String second_name) {
+        this.name = first_name + second_name;
+    }
 
 
 
